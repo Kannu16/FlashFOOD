@@ -1,0 +1,110 @@
+@media only screen and (max-width: 1500px) {
+   .footer-container-inner-imagelist-container img{
+    display: none;
+   }
+  }
+
+  @media only screen and (max-width: 1100px) {
+    .head-to-store-inner-container{
+        flex-direction: column;
+    }
+
+    .navbar-container-inner{
+        width: 95%;
+        margin: auto;
+    }
+    .enjoyment-section-inner{
+        flex-direction: column!important;
+        align-items: center;
+    }
+    .footer-container-inner-div{
+        flex-direction: column!important;
+        align-items: center;;
+    }
+    .HIWcontainer-inner-container-card{
+        flex-direction: column!important;
+        align-items: center;
+    }
+    .head-to-store-inner-container-right, .HIWcontainer-inner-left, .enjoyment-section-inner-left{
+        width: 95%!important;
+    }
+    .appstore-logo{
+      display: none!important;
+    }
+
+    .main-container-inner{
+        top:30%
+    }
+    .enjoyment-section-inner-left{
+        padding: 0.5rem;
+    }
+
+   }
+
+   @media only screen and (max-width: 800px) {
+    .footer-container-inner-left h1{
+        font-size: 30px;
+    }
+    .main-container-inner h1{
+        font-size: 30px;
+    }
+
+   }
+
+   @media only screen and (max-width: 900px) {
+    .footer-end-container{
+      flex-direction: column;
+    }
+    .footer-end-container-right{
+        flex-direction: column;
+        padding-top: 100px;
+        padding-bottom: 70px;
+    }
+    .footer-container-inner-imagelist-container-div-flash-food{
+        text-align: left!important;
+    }
+    .HIWcontainer-inner-left{
+        padding: 0!important;
+    }
+   }
+
+   @media only screen and (max-width: 500px) {
+    body{
+        overflow-x: hidden;
+    }
+    .navbar-container-inner, .footer-container-inner-imagelist-container-div, .footer-container-inner-div, .main-container, .brand-main-container, .how-it-works-container, .head-to-store-container, .enjoyment-section-container, .testimonial-container{
+        width: 95%;
+        margin: auto;
+    }
+    .brand-image{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .learn-more-card{
+        display: flex!important;
+        flex-direction: column!important;
+    }
+
+    .learn-more-card button{
+        width: 200px;
+        padding: 5px;
+        margin-top: 15px;
+    }
+    .main-container-inner{
+        width: 98%!important;
+        margin: auto!important;
+    }
+    .main-container-inner h1{
+        font-size: 30px!important;
+        text-align: center;
+    }
+    .main-container-inner p{
+        font-size: 15px!important;
+        text-align: center;
+    }
+    .brand-image img{
+        width: 50%;
+    }
+   }
